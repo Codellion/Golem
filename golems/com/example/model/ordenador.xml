@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<golem name="Ordenador" dataBeetle="true" extension="com.example.Prueba">
+    <attributes>
+        <attribute type="java.lang.String" name="nombre" accessor="ALL"/>
+        <attribute type="java.lang.Float" name="CPU" accessor="ALL"/>    
+        <attribute type="java.lang.Integer" name="RAM" accessor="READ"/>        
+    </attributes>
+    <implementations>
+        <implementation value="com.example.IPrueba" />        
+    </implementations>
+</golem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<golem name="Rueda" dataBeetle="true">
+    <attributes>
+        <attribute type="java.lang.Float" name="diametro" accessor="ALL"/>
+        <attribute type="java.lang.String" name="marca" accessor="ALL"/>
+    </attributes>
+    <golemChilds>
+        <golemChild type="Coche" name="coches" relation="MTM" mappedBy="ruedas" />
+    </golemChilds>
+</golem>

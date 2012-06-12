@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root name="golem" class="com.codellion.golem.wrappers.Golem">
+    <!-- Elementos -->
+    <elements name="attributes" type="java.util.ArrayList">
+        <element name="attribute" type="com.codellion.golem.wrappers.AttributeGolem">
+        </element>
+    </elements>
+     <elements name="implementations" type="java.util.ArrayList">
+        <element name="implementation" type="java.lang.String">
+        </element>
+    </elements>
+    <elements name="golemChilds" type="java.util.ArrayList">
+        <element name="golemChild" type="com.codellion.golem.wrappers.GolemChild">
+        </element>
+    </elements>
+    <!-- Propiedades -->
+    <properties element="root">
+        <property name="name" />
+        <property name="dataBeetle" />
+        <property name="extension" />
+    </properties>    
+    <properties element="attribute" >
+        <property name="name" />        
+        <property name="accessor" />
+        <property name="dataBeetle" />
+        <property name="type" />
+    </properties>
+    <properties element="implementation">
+        <property name="value" />
+    </properties>
+    <properties element="golemChild">
+        <property name="name" />        
+        <property name="accessor" />
+        <property name="dataBeetle" />
+        <property name="type" />
+        <property name="relation" />
+        <property name="mappedBy" />
+    </properties>  
+</root>

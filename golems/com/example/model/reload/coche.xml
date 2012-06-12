@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<golem name="Coche" dataBeetle="true">
+    <attributes>
+        <attribute type="java.lang.String" name="color" accessor="ALL"/>    
+        <attribute type="java.lang.Integer" name="anno" accessor="ALL"/>
+        <attribute type="java.lang.Integer" name="cv" accessor="ALL"/>        
+        <attribute type="java.lang.Integer" name="puertas" accessor="ALL"/>
+    </attributes>
+   <golemChilds>
+        <golemChild type="Rueda" name="ruedas" relation="MTMO" mappedBy="coches" />
+        <golemChild type="MarcaCoche" name="marca" relation="MTO" mappedBy="coches" />        
+    </golemChilds>
+</golem>
